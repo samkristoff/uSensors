@@ -1,0 +1,97 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=C:\github\uSensors\trunk\Test Apps\USB CDC\Objects\PIC32MX460F512L\main.o
+Folder=Intermediary
+DeviceName=PIC32MX230F064B
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|.\output||$(TMPDIR)|.\Objects\PIC32MX460F512L||$(AINDIR)||$(INCDIR)|.;.\Include;C:\github\uSensors\trunk\core\Include||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib;C:\github\uSensors\trunk\core\Source||$(LKRDIR)||
+SOLK=<src>|main.c|C:\github\uSensors\trunk\core\Source\USB\CDC Device Driver\usb_function_cdc.c|C:\github\uSensors\trunk\core\Source\USB\usb_device.c|C:\github\uSensors\trunk\core\Source\usb_descriptors.c|C:\github\uSensors\trunk\core\Source\USB_Functions.c||<obj>||<lib>||<lkr>|app_pic32mx1xx_2xx_Sam.ld||
+SuiteArgsString=
+ToolArgsString=-g -DPIC32MX460F512L_PIM
+TraceCmdString=
+DebugOptions=
+[File001]
+Location=C:\github\uSensors\trunk\Test Apps\USB CDC\Objects\PIC32MX460F512L\usb_function_cdc.o
+Folder=Intermediary
+DeviceName=PIC32MX230F064B
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|.\output||$(TMPDIR)|.\Objects\PIC32MX460F512L||$(AINDIR)||$(INCDIR)|.;.\Include;C:\github\uSensors\trunk\core\Include||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib;C:\github\uSensors\trunk\core\Source||$(LKRDIR)||
+SOLK=<src>|main.c|C:\github\uSensors\trunk\core\Source\USB\CDC Device Driver\usb_function_cdc.c|C:\github\uSensors\trunk\core\Source\USB\usb_device.c|C:\github\uSensors\trunk\core\Source\usb_descriptors.c|C:\github\uSensors\trunk\core\Source\USB_Functions.c||<obj>||<lib>||<lkr>|app_pic32mx1xx_2xx_Sam.ld||
+SuiteArgsString=
+ToolArgsString=-g -DPIC32MX460F512L_PIM
+TraceCmdString=
+DebugOptions=
+[File002]
+Location=C:\github\uSensors\trunk\Test Apps\USB CDC\Objects\PIC32MX460F512L\usb_device.o
+Folder=Intermediary
+DeviceName=PIC32MX230F064B
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|.\output||$(TMPDIR)|.\Objects\PIC32MX460F512L||$(AINDIR)||$(INCDIR)|.;.\Include;C:\github\uSensors\trunk\core\Include||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib;C:\github\uSensors\trunk\core\Source||$(LKRDIR)||
+SOLK=<src>|main.c|C:\github\uSensors\trunk\core\Source\USB\CDC Device Driver\usb_function_cdc.c|C:\github\uSensors\trunk\core\Source\USB\usb_device.c|C:\github\uSensors\trunk\core\Source\usb_descriptors.c|C:\github\uSensors\trunk\core\Source\USB_Functions.c||<obj>||<lib>||<lkr>|app_pic32mx1xx_2xx_Sam.ld||
+SuiteArgsString=
+ToolArgsString=-g -DPIC32MX460F512L_PIM
+TraceCmdString=
+DebugOptions=
+[File003]
+Location=C:\github\uSensors\trunk\Test Apps\USB CDC\Objects\PIC32MX460F512L\usb_descriptors.o
+Folder=Intermediary
+DeviceName=PIC32MX230F064B
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|.\output||$(TMPDIR)|.\Objects\PIC32MX460F512L||$(AINDIR)||$(INCDIR)|.;.\Include;C:\github\uSensors\trunk\core\Include||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib;C:\github\uSensors\trunk\core\Source||$(LKRDIR)||
+SOLK=<src>|main.c|C:\github\uSensors\trunk\core\Source\USB\CDC Device Driver\usb_function_cdc.c|C:\github\uSensors\trunk\core\Source\USB\usb_device.c|C:\github\uSensors\trunk\core\Source\usb_descriptors.c|C:\github\uSensors\trunk\core\Source\USB_Functions.c||<obj>||<lib>||<lkr>|app_pic32mx1xx_2xx_Sam.ld||
+SuiteArgsString=
+ToolArgsString=-g -DPIC32MX460F512L_PIM
+TraceCmdString=
+DebugOptions=
+[File004]
+Location=C:\github\uSensors\trunk\Test Apps\USB CDC\Objects\PIC32MX460F512L\USB_Functions.o
+Folder=Intermediary
+DeviceName=PIC32MX230F064B
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={430F471F-7ECB-4852-A80D-DEF9A5C8E751}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin\pic32-gcc.exe
+PPAD=$(BINDIR)|.\output||$(TMPDIR)|.\Objects\PIC32MX460F512L||$(AINDIR)||$(INCDIR)|.;.\Include;C:\github\uSensors\trunk\core\Include||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib;C:\github\uSensors\trunk\core\Source||$(LKRDIR)||
+SOLK=<src>|main.c|C:\github\uSensors\trunk\core\Source\USB\CDC Device Driver\usb_function_cdc.c|C:\github\uSensors\trunk\core\Source\USB\usb_device.c|C:\github\uSensors\trunk\core\Source\usb_descriptors.c|C:\github\uSensors\trunk\core\Source\USB_Functions.c||<obj>||<lib>||<lkr>|app_pic32mx1xx_2xx_Sam.ld||
+SuiteArgsString=
+ToolArgsString=-g -DPIC32MX460F512L_PIM
+TraceCmdString=
+DebugOptions=
+[File005]
+Location=C:\github\uSensors\trunk\Test Apps\USB CDC\.\output\PIC32MX2XX_Stripped_CDC.elf
+Folder=Output
+DeviceName=PIC32MX230F064B
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={C68E5105-1196-4333-A0BF-3DC57271E614}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin\pic32-ld.exe
+PPAD=$(BINDIR)|.\output||$(TMPDIR)|.\Objects\PIC32MX460F512L||$(AINDIR)||$(INCDIR)|.;.\Include;C:\github\uSensors\trunk\core\Include||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib;C:\github\uSensors\trunk\core\Source||$(LKRDIR)||
+SOLK=<src>|main.c|C:\github\uSensors\trunk\core\Source\USB\CDC Device Driver\usb_function_cdc.c|C:\github\uSensors\trunk\core\Source\USB\usb_device.c|C:\github\uSensors\trunk\core\Source\usb_descriptors.c|C:\github\uSensors\trunk\core\Source\USB_Functions.c||<obj>||<lib>||<lkr>|app_pic32mx1xx_2xx_Sam.ld||
+SuiteArgsString=
+ToolArgsString=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map"
+TraceCmdString=
+DebugOptions=
+[File006]
+Location=C:\github\uSensors\trunk\Test Apps\USB CDC\.\output\PIC32MX2XX_Stripped_CDC.hex
+Folder=Output
+DeviceName=PIC32MX230F064B
+LanguageToolSuiteID={14495C23-81F8-43F3-8A44-859C583D7760}
+LanguageToolID={C68E5105-1196-4333-A0BF-3DC57271E614}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin\pic32-ld.exe
+PPAD=$(BINDIR)|.\output||$(TMPDIR)|.\Objects\PIC32MX460F512L||$(AINDIR)||$(INCDIR)|.;.\Include;C:\github\uSensors\trunk\core\Include||$(LIBDIR)|C:\Program Files\Microchip\MPLAB C30\lib;C:\github\uSensors\trunk\core\Source||$(LKRDIR)||
+SOLK=<src>|main.c|C:\github\uSensors\trunk\core\Source\USB\CDC Device Driver\usb_function_cdc.c|C:\github\uSensors\trunk\core\Source\USB\usb_device.c|C:\github\uSensors\trunk\core\Source\usb_descriptors.c|C:\github\uSensors\trunk\core\Source\USB_Functions.c||<obj>||<lib>||<lkr>|app_pic32mx1xx_2xx_Sam.ld||
+SuiteArgsString=
+ToolArgsString=-o"$(BINDIR_)$(TARGETBASE).$(TARGETSUFFIX)" -Map="$(BINDIR_)$(TARGETBASE).map"
+TraceCmdString=
+DebugOptions=
+[TOOL_LOC_STAMPS]
+tool_loc{430F471F-7ECB-4852-A80D-DEF9A5C8E751}=C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin\pic32-gcc.exe
+tool_loc{C68E5105-1196-4333-A0BF-3DC57271E614}=C:\Program Files (x86)\Microchip\MPLAB C32 Suite\bin\pic32-ld.exe
