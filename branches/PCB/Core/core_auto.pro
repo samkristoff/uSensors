@@ -1,13 +1,13 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/github/uSensors/branches/PCB/Core/core.brd
+Job           : C:/github/uSensors/branches/PCB/Core/core_auto.brd
 
-Start at      : 16:39:15 (2/24/2013)
-End at        : 16:39:15 (2/24/2013)
+Start at      : 15:07:06 (2/24/2013)
+End at        : 15:07:06 (2/24/2013)
 Elapsed time  : 00:00:00
 
 Signals       :    28   RoutingGrid: 50 mil  Layers: 2
-Connections   :    68   predefined:  68 ( 1 Vias )
+Connections   :    68   predefined:  68 ( 0 Vias )
 
 Router memory :   44096
 
