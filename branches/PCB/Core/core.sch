@@ -9428,7 +9428,7 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="+3V7" gate="G$1" x="284.48" y="62.23"/>
 <instance part="GND12" gate="1" x="284.48" y="40.64"/>
 <instance part="+3V8" gate="G$1" x="-25.4" y="43.18"/>
-<instance part="GND10" gate="1" x="271.78" y="129.54"/>
+<instance part="GND10" gate="1" x="264.16" y="119.38"/>
 </instances>
 <busses>
 </busses>
@@ -9521,9 +9521,9 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="284.48" y1="45.72" x2="284.48" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="USB_MINI_B" gate="G$1" pin="VBUS"/>
+<pinref part="USB_MINI_B" gate="G$1" pin="GND"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="259.08" y1="132.08" x2="271.78" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="121.92" x2="264.16" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -9748,9 +9748,10 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="269.24" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="USB_MINI_B" gate="G$1" pin="GND"/>
-<wire x1="259.08" y1="121.92" x2="261.62" y2="121.92" width="0.1524" layer="91"/>
-<label x="261.62" y="121.92" size="1.778" layer="95" xref="yes"/>
+<pinref part="USB_MINI_B" gate="G$1" pin="VBUS"/>
+<wire x1="259.08" y1="132.08" x2="259.08" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="134.62" x2="261.62" y2="134.62" width="0.1524" layer="91"/>
+<label x="261.62" y="134.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="D+" class="0">

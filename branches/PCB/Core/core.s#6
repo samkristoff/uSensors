@@ -9639,14 +9639,6 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="10.16" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="113.03" y1="124.46" x2="119.38" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="PICKIT1" gate="A" pin="5"/>
-</segment>
-<segment>
-<wire x1="113.03" y1="121.92" x2="119.38" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="PICKIT1" gate="A" pin="6"/>
-</segment>
-<segment>
 <pinref part="PICKIT1" gate="A" pin="4"/>
 <wire x1="113.03" y1="127" x2="119.38" y2="127" width="0.1524" layer="91"/>
 <label x="119.38" y="127" size="1.778" layer="95" xref="yes"/>
@@ -9657,7 +9649,6 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <pinref part="U1" gate="A" pin="PGEC3/VREF-/CVREF-/AN1/RPA1/CTED2/PMD6/RA1"/>
 <wire x1="12.7" y1="63.5" x2="1.27" y2="63.5" width="0.1524" layer="91"/>
 <label x="1.27" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
-<label x="119.38" y="124.46" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="PORTA" gate="G$1" pin="2"/>

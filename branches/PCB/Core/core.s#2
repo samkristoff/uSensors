@@ -9292,8 +9292,8 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="PICKIT1" library="adafruit" deviceset="PINHD-1X6" device=""/>
-<part name="BOOTLOADER" library="switch-omron" deviceset="10-XX" device=""/>
+<part name="PICKIT3" library="adafruit" deviceset="PINHD-1X6" device=""/>
+<part name="BTLDR" library="switch-omron" deviceset="10-XX" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="R3" library="resistor" deviceset="R-US_" device="0207/10" value="10K"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
@@ -9389,8 +9389,8 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <instance part="GND4" gate="1" x="78.74" y="111.76"/>
 <instance part="+3V2" gate="G$1" x="-55.88" y="137.16"/>
 <instance part="GND5" gate="1" x="-55.88" y="104.14"/>
-<instance part="PICKIT1" gate="A" x="110.49" y="127" rot="MR0"/>
-<instance part="BOOTLOADER" gate="1" x="149.86" y="109.22" rot="R180"/>
+<instance part="PICKIT3" gate="A" x="110.49" y="127" rot="MR0"/>
+<instance part="BTLDR" gate="1" x="149.86" y="109.22" rot="R180"/>
 <instance part="GND2" gate="1" x="149.86" y="99.06"/>
 <instance part="R3" gate="G$1" x="149.86" y="127" rot="MR90"/>
 <instance part="+3V3" gate="G$1" x="149.86" y="137.16"/>
@@ -9450,7 +9450,7 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="78.74" y1="116.84" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="BOOTLOADER" gate="1" pin="S"/>
+<pinref part="BTLDR" gate="1" pin="S"/>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="149.86" y1="104.14" x2="149.86" y2="101.6" width="0.1524" layer="91"/>
 </segment>
@@ -9460,7 +9460,7 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="217.17" y1="124.46" x2="217.17" y2="128.27" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="PICKIT1" gate="A" pin="3"/>
+<pinref part="PICKIT3" gate="A" pin="3"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="113.03" y1="129.54" x2="130.81" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="130.81" y1="129.54" x2="130.81" y2="123.19" width="0.1524" layer="91"/>
@@ -9564,7 +9564,7 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="-41.91" y1="132.08" x2="-55.88" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="PICKIT1" gate="A" pin="2"/>
+<pinref part="PICKIT3" gate="A" pin="2"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 <wire x1="113.03" y1="132.08" x2="132.08" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="132.08" x2="132.08" y2="138.43" width="0.1524" layer="91"/>
@@ -9638,7 +9638,7 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="10.16" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PICKIT1" gate="A" pin="4"/>
+<pinref part="PICKIT3" gate="A" pin="4"/>
 <wire x1="113.03" y1="127" x2="119.38" y2="127" width="0.1524" layer="91"/>
 <label x="119.38" y="127" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -9655,7 +9655,7 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="314.96" y="127" size="1.778" layer="95" rot="MR180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PICKIT1" gate="A" pin="5"/>
+<pinref part="PICKIT3" gate="A" pin="5"/>
 <wire x1="113.03" y1="124.46" x2="119.38" y2="124.46" width="0.1524" layer="91"/>
 <label x="119.38" y="124.46" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -9707,7 +9707,7 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </net>
 <net name="RA4" class="0">
 <segment>
-<pinref part="BOOTLOADER" gate="1" pin="P"/>
+<pinref part="BTLDR" gate="1" pin="P"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="114.3" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
 <label x="149.86" y="118.11" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -9731,7 +9731,7 @@ Standard 5-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <label x="34.29" y="118.11" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PICKIT1" gate="A" pin="1"/>
+<pinref part="PICKIT3" gate="A" pin="1"/>
 <wire x1="113.03" y1="134.62" x2="119.38" y2="134.62" width="0.1524" layer="91"/>
 <label x="119.38" y="134.62" size="1.778" layer="95" xref="yes"/>
 </segment>
